@@ -1,0 +1,397 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color-text);
+  font-size: 16px;
+  background-color: var(--add-color-text);
+}
+:root {
+  --main-color-text: #212121;
+  --second-color-text: #757575;
+  --accent-color-text: #2196f3;
+  --add-color-text: #ffffff;
+  --address-accent: rgba(255, 255, 255, 0.6);
+  --studio-accent: #000000;
+  --main-color-bcg: #f5f5f5;
+  --second-color-bcg: #2f303a;
+  --accent-color-bcg: #f5f4fa;
+  --main-letter-spacing: 0.03em;
+  --second-letter-spacing: 0.06em;
+  --second-font-size: 14px;
+  --accent-hero-button: #188ce8;
+  --main-font-weight: 700;
+  --second-font-weight: 500;
+}
+.button {
+  font: inherit;
+  cursor: pointer;
+  font-weight: var(--second-font-weight);
+  line-height: 1.62;
+  border: none;
+}
+.button,
+.our-team {
+  background-color: var(--accent-color-bcg);
+}
+.logo {
+  font-family: 'Raleway';
+  font-size: 26px;
+  color: var(--studio-accent);
+  font-weight: var(--main-font-weight);
+  line-height: 1.19;
+}
+.nav-link {
+  font-weight: var(--second-font-weight);
+  font-size: var(--second-font-size);
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.accent,
+.address-mail:hover,
+.address-mail:focus,
+.address-mail:active,
+.address-phone:hover,
+.address-phone:focus,
+.address-phone:active {
+  color: var(--accent-color-text);
+}
+.button:hover,
+.button:focus,
+.button:active,
+.hero-button {
+  background-color: var(--accent-color-text);
+}
+.card-title {
+  font-weight: var(--main-font-weight);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: var(--second-letter-spacing);
+}
+.card-description {
+  line-height: 1.88;
+}
+.address-links {
+  font-size: var(--second-font-size);
+  font-style: normal;
+  line-height: 1.71;
+}
+.address-map,
+.part-logo,
+.hero-title,
+.hero-button,
+.button:hover,
+.button:focus,
+.button:active {
+  color: var(--add-color-text);
+}
+.address-mail,
+.address-phone {
+  color: var(--address-accent);
+}
+.hero,
+.footer-menu {
+  background-color: var(--second-color-bcg);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: var(--second-letter-spacing);
+  text-transform: uppercase;
+}
+.hero-button {
+  font: inherit;
+  font-weight: var(--main-font-weight);
+  line-height: 1.88;
+  letter-spacing: var(--second-letter-spacing);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+  background-color: var(--accent-hero-button);
+}
+.benefit-title {
+  font-weight: var(--main-font-weight);
+  font-size: var(--second-font-size);
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.benefit-description {
+  font-size: var(--second-font-size);
+  line-height: 1.71;
+}
+.benefit-description,
+.member-speciality,
+.card-description,
+.mail,
+.phone {
+  color: var(--second-color-text);
+}
+.title {
+  font-weight: var(--main-font-weight);
+  font-size: 36px;
+  line-height: 1.17;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.contacts,
+.portfolio,
+.studio {
+  color: var(--main-color-text);
+}
+.current {
+  color: var(--accent-color-text);
+}
+.team-card {
+  background-color: var(--add-color-text);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+}
+.card {
+  width: 370px;
+}
+.team-member {
+  font-weight: var(--second-font-weight);
+  font-size: 16px;
+  line-height: 1.19;
+}
+.member-speciality {
+  line-height: 1.19;
+}
+.logo,
+.benefit-title,
+.benefit-description,
+.title,
+.team-member,
+.member-speciality,
+.address-links,
+.button,
+.card-description {
+  letter-spacing: var(--main-letter-spacing);
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.logo {
+  display: inline-block;
+  width: 145px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+.item {
+  margin-right: 30px;
+}
+.nav-link {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 32px 0px;
+}
+ul {
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.address-links {
+  flex-direction: column;
+}
+.cards {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.cards > .card {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.button {
+  margin-bottom: 0px;
+  padding: 6px 22px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+.all {
+  padding: 6px 25px;
+}
+.marketing {
+  margin-right: 0;
+}
+.logo.address {
+  margin-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.address-map,
+.address-phone,
+.address-mail {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+.card-title {
+  margin-bottom: 4px;
+}
+ul {
+  display: flex;
+}
+.hero-button {
+  display: flex;
+  margin: 0 auto;
+  width: 216px;
+  padding: 10px 32px;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.hero-title {
+  width: 696px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.work,
+.team {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.team-member,
+.member-speciality {
+  text-align: center;
+}
+.container.header {
+  padding-bottom: 0px;
+}
+.benefit-title {
+  margin-bottom: 10px;
+}
+.team-card:last-child,
+.designing {
+  margin-right: 0px;
+}
+.team-member {
+  white-space: nowrap;
+}
+.member-speciality {
+  white-space: nowrap;
+}
+.logo.address {
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.benefit-description {
+  width: 270px;
+}
+.container.header {
+  display: flex;
+  padding: 0px 15px;
+}
+nav {
+  display: flex;
+}
+.contacts {
+  width: 64px;
+  margin-right: 0px;
+}
+.mail-link,
+.phone-link {
+  display: inline-block;
+  padding: 32px 0px;
+}
+.address-phone {
+  margin-bottom: 0px;
+}
+header {
+  border-bottom: 1px solid #ececec;
+}
+.card-container {
+  border: 1px solid #eeeeee;
+  border-top-color: transparent;
+  padding: 20px 24px;
+}
+img {
+  display: block;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
+.list-item {
+  padding: 0;
+}
+.phone.link {
+  margin-right: 0px;
+  width: 122px;
+  margin-left: auto;
+}
+.mail.link {
+  margin-left: auto;
+}
+.item:last-child {
+  margin-right: 0px;
+}
+.examples-work {
+  padding-top: 0;
+}
+.worker-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-member {
+  margin-bottom: 10px;
+}
+.footer-menu {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.web-sites {
+  white-space: nowrap;
+}
+.container-links {
+  margin-left: auto;
+}
